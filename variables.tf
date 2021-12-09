@@ -1,8 +1,8 @@
 variable "instance_type" {
     type = string
-    default = "t2.micro"
+    default = "c4.large"
 }
 variable "instance_name" {
     type = string
-    default = "aaa"
+    default = "ec2-module instance dev"
 }
